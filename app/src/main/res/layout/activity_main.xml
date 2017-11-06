@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/getBitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getBitmap"/>
+
+        <Button
+            android:id="@+id/Bitmap2Bytes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitmap2Bytes"/>
+
+        <Button
+            android:id="@+id/Bytes2Bitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bytes2Bitmap"/>
+
+        <Button
+            android:id="@+id/zoomBitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zoomBitmap"/>
+
+        <Button
+            android:id="@+id/Drawable2Bitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drawable2Bitmap"/>
+
+        <Button
+            android:id="@+id/getRoundedCornerBitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getRoundedCornerBitmap"/>
+
+        <Button
+            android:id="@+id/createReflectionImageWithOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="createReflectionImageWithOrigin"/>
+
+        <Button
+            android:id="@+id/Bitmap2Drawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitmap2Drawable"/>
+
+        <Button
+            android:id="@+id/zoomDrawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zoomDrawable"/>
+    </LinearLayout>
+
+</RelativeLayout>
